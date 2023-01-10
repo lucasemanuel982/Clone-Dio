@@ -1,0 +1,21 @@
+O que são Hooks ?
+
+Hooks são funções que permitem a você “ligar-se” aos recursos de state e ciclo de vida do React a partir de componentes funcionais.
+Hooks não funcionam dentro de classes — eles permitem que você use React sem classes.
+Eles permitem o uso de vários recursos de forma simples através das funções. 
+Ajuda a organizar a lógica utilizada dentro dos componentes
+
+
+useSates:
+O useState , que permite a criação de estado no componente através de função e faz o gerenciamento do estado local do componente retorna um array como resultado. Por isso, é possível fazermos uma desestruturação para receber partes desse retorno.
+Gerencia o Estado de um componente
+
+
+useEffect:
+Ele permite você execute efeitos colaterais no seu código. Mas o que seriam esses efeitos colaterais? Buscar dados de uma API, mudar a DOM, ou configurar uma subscription, por exemplo, são algumas opções de efeitos colaterais no seu código.
+
+Gerencia o ciclo de vida de um componente
+
+
+useMemo:
+Gerencia redenrizações de variáveis no componente

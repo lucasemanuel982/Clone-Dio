@@ -1,0 +1,67 @@
+O que é o React CLI (CRA) ?
+
+create React App é um ambiente confortável para aprender React, e é a melhor maneira de começar um single-pago apllication em react
+
+Além, de configurar seu ambiente de desenvolvimento para utilizar a funcionalidades mais recentes do JavaScript, ele fornece uma experência de desenvolvimento 
+agradável e otimiza o seu app para produção. 
+
+É uma linha de comando que facilita a criação de app em React trazendo uma estrutura toda pronta.
+
+
+Criar um projeto React CLI (CRA):
+npx create-react-app (Nome do projeto)
+
+para iniciar: 
+npm start
+
+
+
+Criando navegações dentro do projeto
+
+Para utilizarmos navegação, utilizamos a biblioteca?
+
+react react-router-dom
+
+
+
+
+Por que usar o React CLI?
+
+Por facilitar o start do nosso projeto já trazendo uma estrutura de projeto toda completa. 
+
+
+
+Instalar os Ícones
+npm install react-icons
+
+
+
+
+O que é o styled-components?
+É uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript
+
+O styled-components nos ajuda a:
+Ganhar Mais agilidade e precisão no desenvolvimentoweb.
+
+Com styled-componentes conseguimos:
+Criar lógica e regras dentro de componentes visuais.
+
+Qual hook usamos para lidar com estado dentro do componente?
+useSate
+
+
+
+Foi utilizado o React Hook Form - https://react-hook-form.com/get-started  - npm install react-hook-form
+é uma biblioteca que auxilia na criação e validação dos formulários, como já mencionado, além de reduzir a quantidade de código desenvolvido, fazendo com que a captura de ações do formulário também seja mais objetiva.
+
+
+json- server - serve para criar uma API interna(Simulação de API) para pegar no seu projeto - comando para instalar: npm install -g json-server
+Site documentação: https://www.npmjs.com/package/json-server
+serve como uma ferramenta de apoio para o desenvolvimento de aplicações. O seu uso é mais comum para desenvolvimento de front-end,
+em que o foco não é projetar uma API, mas, sim, a interação da pessoa usuária com a aplicação.  
+
+Criando um serviço do Axios para sempre ser consumido e nã ficar passando a URL toda hora que for ser utilizado
+Foi criado a api chamando o json-server que ficará observando qualquer alteração no db.json e irá recarregar quando tiver
+alteração e os número é a porta em que será rodada a api
+Tem que ser implementeado o código: "api": "json-server --watch db.json -p 8001" em package.json
+Para rodar a api tem que digitar o comando "npm run api"
